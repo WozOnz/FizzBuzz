@@ -7,4 +7,4 @@ foreach(1..100)
 	if( !$msg ){ $msg = $_;}
 	print qq($msg\n);
 }
-exit;
+0;
