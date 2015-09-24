@@ -1,5 +1,4 @@
-my @f = ("Fizz");
-my @b = ("Buzz");
+my @f = qq(Fizz), @b = qq(Buzz);
 foreach(1..100)
 {
 	my $msg = "";
